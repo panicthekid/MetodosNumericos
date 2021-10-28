@@ -1,5 +1,6 @@
 # MetodosNumericos
 Aqui se hace muestra de como se ve la aplicación al correrla.
+Nota importante!: los archivos con terminación .ui son solo las vistas que se muestran a continuación, toda la lógica estén en el archivo .py
 ![Captura de pantalla (18)](https://user-images.githubusercontent.com/19199917/139190327-b0a255bd-99dc-4895-89fb-abb44348ee76.png)
 ![Captura de pantalla (19)](https://user-images.githubusercontent.com/19199917/139190363-05007528-4b81-4a75-91c6-88e3c59055c2.png)
 ![Captura de pantalla (20)](https://user-images.githubusercontent.com/19199917/139190382-74668d57-0803-4d83-9c43-1756837827f1.png)
