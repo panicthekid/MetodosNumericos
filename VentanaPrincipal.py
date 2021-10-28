@@ -2,7 +2,7 @@
 """
 Created on Thu May 21 23:14:16 2020
 
-@author: imnto
+@author: Colin Hernandez R. Akzayakatl
 """
 import sys
 import math
