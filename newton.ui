@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>873</width>
+    <height>507</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Dialog</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(235, 235, 235);</string>
+  </property>
+  <widget class="QSpinBox" name="nBox">
+   <property name="geometry">
+    <rect>
+     <x>494</x>
+     <y>90</y>
+     <width>42</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="minimum">
+    <number>1</number>
+   </property>
+   <property name="maximum">
+    <number>10</number>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>350</x>
+     <y>90</y>
+     <width>131</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Seleccione el valor de n +1: </string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>23</x>
+     <y>210</y>
+     <width>841</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="lyy">
+    <item>
+     <widget class="QLabel" name="labely0">
+      <property name="text">
+       <string>y0:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y0">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely1">
+      <property name="text">
+       <string>y1:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y1"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely2">
+      <property name="text">
+       <string>y2:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y2"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely3">
+      <property name="text">
+       <string>y3:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y3"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely4">
+      <property name="text">
+       <string>y4:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y4"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely5">
+      <property name="text">
+       <string>y5:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y5"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely6">
+      <property name="text">
+       <string>y6:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y6"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely7">
+      <property name="text">
+       <string>y7:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y7"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely8">
+      <property name="text">
+       <string>y8:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y8"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labely9">
+      <property name="text">
+       <string>y9:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="y9"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QTextEdit" name="resultTxt">
+   <property name="geometry">
+    <rect>
+     <x>370</x>
+     <y>320</y>
+     <width>171</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(255, 255, 255);</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="calcBtn">
+   <property name="geometry">
+    <rect>
+     <x>390</x>
+     <y>270</y>
+     <width>131</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(38, 38, 38);
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Calcular</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="crearBtn">
+   <property name="geometry">
+    <rect>
+     <x>400</x>
+     <y>120</y>
+     <width>111</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color: rgb(38, 38, 38);
+color: white;</string>
+   </property>
+   <property name="text">
+    <string>Crear</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>160</y>
+     <width>841</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <layout class="QHBoxLayout" name="lyx">
+    <item>
+     <widget class="QLabel" name="labelx0">
+      <property name="text">
+       <string>x0:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x0">
+      <property name="styleSheet">
+       <string notr="true"/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx1">
+      <property name="text">
+       <string>x1:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x1"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx2">
+      <property name="text">
+       <string>x2:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x2"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx3">
+      <property name="text">
+       <string>x3:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x3"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx4">
+      <property name="text">
+       <string>x4:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x4"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx5">
+      <property name="text">
+       <string>x5:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x5"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx6">
+      <property name="text">
+       <string>x6:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x6"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx7">
+      <property name="text">
+       <string>x7:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x7"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx8">
+      <property name="text">
+       <string>x8:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x8"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="labelx9">
+      <property name="text">
+       <string>x9:</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="x9"/>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QPushButton" name="inicioBtn">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>450</y>
+     <width>161</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Bahnschrift Light SemiCondensed</family>
+     <pointsize>-1</pointsize>
+     <weight>75</weight>
+     <italic>false</italic>
+     <bold>true</bold>
+    </font>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QPushButton {
+    background-color: #262626;
+    border-radius: 10px;
+    font: bold 14px;
+	color: #ABABAB;
+}</string>
+   </property>
+   <property name="text">
+    <string>Regresar a inicio</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
